@@ -20,3 +20,12 @@ public class Percabangan {
                 System.out.println("nilai a tidak di katahui");
     }
 }
+    private void bt_hasilActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        switch(pilih){
+            case 1:
+            bil2 = Double.parseDouble(String.valueOf(txt_hasil.getText()));
+            jumlah = bil1+bil2;
+        }
+    }
+}
