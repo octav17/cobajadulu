@@ -16,5 +16,7 @@ public class Percabangan {
             case 3:
                 System.out.println("nilai x = 3");
                 break;
+            default:
+                System.out.println("nilai a tidak di katahui");
     }
 }
