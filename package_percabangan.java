@@ -26,6 +26,13 @@ public class Percabangan {
             case 1:
             bil2 = Double.parseDouble(String.valueOf(txt_hasil.getText()));
             jumlah = bil1+bil2;
+            bilangan = Double.toString(jumlah);            
+            break;
+        case 2:
+            bil2 =Double.parseDouble(String.valueOf(txt_hasil.getText()));
+            jumlah = bil1 - bil2;
+            bilangan = Double.toString(jumlah);            
+            break;
         }
     }
 }
