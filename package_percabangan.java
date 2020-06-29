@@ -38,6 +38,16 @@ public class Percabangan {
             jumlah = bil1 * bil2;
             bilangan = Double.toString(jumlah);            
             break;
+        //perlu menambah 1 case lagi
+        case 4:
+            bil2 = Double.parseDouble(String.valueOf(txt_hasil.getText()));
+            jumlah = bil1 / bil2;
+            bilangan = Double.toString(jumlah);            
+            break;  
         }
     }
 }
+/* @param  x the first {@code int} to compare
+ * @param  y the second {@code int} to compare
+ * @return the value {@code 0} if {@code x == y};
+ *         a value less than {@code 0} if {@code x < y}; and
